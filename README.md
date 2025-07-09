@@ -35,7 +35,7 @@ Freestyle Chess supports randomized starting positions, check/checkmate/stalemat
 
 ## 🖥️ Demo
 
-## ![screenshot](res/screenshot.png)
+## ![screenshot](res/screenshot.jpg)
 
 ## 🧱 Project Structure
 
