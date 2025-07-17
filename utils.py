@@ -2,12 +2,11 @@ import pygame
 from pygame.locals import *
 import queue
 
-
 class Utils:
     def get_mouse_event(self):
         # get coordinates of the mouse
         position = pygame.mouse.get_pos()
-
+        
         # return left click status and mouse coordinates
         return position
 
@@ -17,7 +16,7 @@ class Utils:
         # create flag to check for left click event
         left_click = False
 
-        if mouse_btn[0]:
+        if mouse_btn[0]: #and e.button == 1:
             # change left click flag
             left_click = True
 
