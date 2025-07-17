@@ -96,10 +96,6 @@ class Game:
             else:
                 self.game()
 
-            # for testing mechanics of the game
-            # self.game()
-            # self.declare_winner(winner)
-
             # update display
             pygame.display.flip()
             # update events
@@ -181,8 +177,8 @@ class Game:
         self.chess.play_turn()
 
         # draw resign buttons
-        white_resign_btn = pygame.Rect(50, 670, 150, 40)
-        black_resign_btn = pygame.Rect(440, 670, 150, 40)
+        white_resign_btn = pygame.Rect(50, 690, 150, 40)
+        black_resign_btn = pygame.Rect(50, 10, 150, 40)
         pygame.draw.rect(self.screen, (180, 0, 0), white_resign_btn)
         pygame.draw.rect(self.screen, (0, 0, 180), black_resign_btn)
 
